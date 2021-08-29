@@ -1,0 +1,37 @@
+1. git config --global user.name Amit --->give the name
+2.git config --global user.email amitroyal8755@gmail.com--->give the email
+3.code. --->start visual studio code
+4.git init -->initilize the git reporserty
+5.touch index.html -->make a file with name of index.html
+6.git status --->check the status after every commend
+7.git  add index.html -->putting file into staging area
+8. git commit --<type some comment--<press Esc--< type :wq -->putting into modified jone (#warnig -its not a good way to putting into modifie zone)
+9.git add -A --->putting all file into stage area
+10.git commit -m -->puting file into modified zone
+11.git checkout <file name>-->It return the previous step
+12.git checkout -f -->It return all file the previous step
+13.git log  -p -1 --> check your commit and --<press q-->return on the commendline
+14.git diff -->it match the working diractory with staging diractory(diff==difference)
+15.git dff --staged -->you can check after the staging file
+16.git commint -a -m "comment" --->avoiding stage 
+17.ls --->it do list file
+18.git rm --> delete the file
+19. git rm --cached waste.html -->only remove from the staged not from memory
+20.git status -->summrize step
+21.touch .gitignore -->make the ignore file
+
+if you type in this file
+mylogs.log -->it will ignore all this type of file 
+/mylogs.log -->where is  .gitignore only ignore from there
+*.log -->ignore all log files
+file/ --> ignore diractory which name is "file"
+
+22.git branch --->check the branch
+23.git branch feature -->make the branch with name feature
+24.git chechout feature -->go to feature branch
+25.git merge feature --->type when  you are in master branch
+26. git checkout -b flaskIt --->do two work make and swithch (flaskIt is a branch name)
+if you will get probelm in pushing then go into credintial manager 
+
+
+
